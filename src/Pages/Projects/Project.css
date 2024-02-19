@@ -1,0 +1,19 @@
+.project_box{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.project_card{
+    height: 12vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.project_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
