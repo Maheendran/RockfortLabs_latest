@@ -13,10 +13,10 @@ function App() {
   return (
     <>
 <Routes>
-
+<Route path="/" element={<AuthRoute Component={Home}/>}/>
 <Route path="/register" element={<UnAuthRoute Component={Registration}/>}/>
 <Route path="/projects" element={<AuthRoute Component={Projects}/>}/>
-<Route path="/" element={<AuthRoute Component={Home}/>}/>
+
 <Route path="/audience" element={< AuthRoute  Component={Audience}/>}/>
 <Route path="/team" element={<AuthRoute  Component={Teams}/>}/>
 

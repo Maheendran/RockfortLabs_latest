@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {  NavLink, useNavigate } from 'react-router-dom'
 import { Link } from 'react-scroll';
 import '../Navbar/Navbar.css'
 
 const Navabr = () => {
+  const[token,setToken]=useState('')
+ useEffect(()=>{
+  const token=localStorage.getItem("token")
+  setToken(token)
+ },[])
 const navigate=useNavigate()
   const handleLogout=()=>{
     localStorage.removeItem('Rockfort-Token')
@@ -60,7 +65,14 @@ spy={true} to={"contact"} smooth={true}>
 </li>
 <li>   
    
-   <p className="nav-item nav-link   text-dark" onClick={handleLogout}>Logout </p>
+{ token?
+  <p className="nav-item nav-link   text-dark" onClick={handleLogout}>Logout </p>
+
+:
+<NavLink to='/register'>
+<p className="nav-item nav-link   text-dark  ">Login </p>
+</NavLink>
+}
 
 </li>
 

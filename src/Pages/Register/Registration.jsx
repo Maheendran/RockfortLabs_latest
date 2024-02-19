@@ -25,7 +25,7 @@ try {
 
   const response = await axios.post('https://naughty-dove-raincoat.cyclic.app/api/autenticate', formdata);
   const responseData = response.data;
-console.log(responseData,"login")
+
 if(responseData.status==="success"){
   toast.success("login success");
   localStorage.setItem("Rockfort-Token",JSON.stringify(responseData.token))

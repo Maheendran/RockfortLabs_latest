@@ -13,7 +13,7 @@ useEffect(()=>{
 
     if(!token){
 
-        navigate('/register')
+        navigate('/')
     }else{
         <Outlet/>
     }
