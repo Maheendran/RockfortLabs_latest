@@ -58,11 +58,11 @@ spy={true} to={"contact"} smooth={true}>
    <p className="nav-item nav-link   text-dark  ">Team </p>
 </NavLink>
 </li>
-<li>   
+{token && <li>   
    <NavLink to='/projects'>
    <p className="nav-item nav-link   text-dark  ">Projects </p>
 </NavLink>
-</li>
+</li>}
 <li>   
    
 { token?
