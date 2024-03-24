@@ -24,7 +24,7 @@ const Tanun = () => {
       </div>
      
 <div className='d-flex flex-column gap-sm-3 gap-lg-4 tanunPara'>
-    <p>Tanun, also known as Tanun Inc and Tanun Ventures, emerged onto the scene in 2017-18 as a premier electric three-wheeler
+    <p>Tanun,(also known as Tanun Inc and Tanun Ventures), emerged onto the scene in 2017-18 as a premier electric three-wheeler
 company with a primary focus on the Indian market. Renowned for its superior price-performance features, the company
 quickly garnered recognition and approval from industry giants such as OLA, Big Basket, and Uber.</p>
 
@@ -37,8 +37,7 @@ energy solutions at the point of generation and use. These innovative solutions 
 OEMs, marking a significant evolution in Tanun's trajectory.</p>
 
 <p>Notably, in January 2022, Tanun took a pivotal step forward by filing for a US Patent based on its latest innovation. With a
-steadfast commitment to innovation and productization, Tanun is poised to revolutionize the energy sector with its cutting-
-edge solutions.</p>
+steadfast commitment to innovation and productization, Tanun is poised to revolutionize the energy sector with its cuttingedge solutions.</p>
 </div>
 
     
@@ -65,8 +64,8 @@ Usecase?
     <span className='ul_bold text-bold font-weight-bold'>
         Groundbreaking Innovation:
     </span>
- TANUN ENERGY unveils a revolutionary innovation poised to transform the
-  energy landscape.
+    TANUN ENERGY unveils a revolutionary innovation poised to transform the energy
+landscape.
   </li>
 
 
@@ -82,7 +81,7 @@ battery needs by an impressive 90%.
   <span className='ul_bold font-weight-bold'>
   Cost Savings:
   </span>
-  TANUN ENERGY's innovative approach slashes operating costs and total cost of ownership (TCO) by
+ TANUN ENERGY's innovative approach slashes operating costs and total cost of ownership (TCO) by
 an unprecedented 90%, delivering unparalleled efficiency and significant cost savings.
   </li>
 
@@ -90,7 +89,7 @@ an unprecedented 90%, delivering unparalleled efficiency and significant cost sa
   <span className='ul_bold font-weight-bold'>
   Independence from Conventional Methods:
   </span>
- Unlike traditional power generation methods reliant on fossil fuels,
+  Unlike traditional power generation methods reliant on fossil fuels,
 solar, wind, hydro, or battery technology, TANUN ENERGY's disruptive patent-pending innovation operates
 independently.
   </li>
@@ -99,8 +98,8 @@ independently.
   <span className='ul_bold font-weight-bold'>
   Global Impact:
   </span>
- With exponential global potential, TANUN ENERGY is positioned to lead the charge towards a
-cleaner, greener, and more efficient future, shaping the energy landscape on a global scale
+  With exponential global potential, TANUN ENERGY is positioned to lead the charge towards a
+cleaner, greener, and more efficient future, shaping the energy landscape on a global scale.
   </li>
 </ul>
 
@@ -122,7 +121,8 @@ cleaner, greener, and more efficient future, shaping the energy landscape on a g
       </div>
       </div>
      <p>Tanun, incubated under Rockfort Labs and headquartered in the USA, boasts operational footprints in both the USA and India.
-The company's current focus lies in the development of licensable point-of-use energy solutions across various sectors:</p>
+The company's current focus lies in the development of licensable point-of-use energy solutions across various sectors:
+</p>
 <div className='col-11 col-sm-8 col-lg-6 mx-auto mt-5'>
 
 <img className='w-100 ' src="../assests/Sectors.gif" alt="" />
