@@ -53,7 +53,9 @@ edge solutions.</p>
       </div>
       <div className='col-12 pt-5 pb-3 py-sm-0 col-sm-8 col-lg-6 text-center mx-auto ' >
 
-<h1 className='Tanunheading'>WHY TɅNUN ENERGY?</h1>
+<h1 className='Tanunheading'>WHY TANUN ENERGY eV
+Usecase?
+</h1>
       </div>
       </div>
      
