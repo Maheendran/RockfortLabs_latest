@@ -48,6 +48,14 @@ spy={true} to={"service"} smooth={true} >
    <p className="nav-item nav-link  text-dark  ">Offerings</p>
 </Link>
         </li>
+
+<li>
+  <a href="/tanun" target='blank'>
+  <p className="nav-item nav-link  text-dark  ">Incubatees</p></a>
+
+</li>
+
+
 <li>  
     <Link
 spy={true} to={"contact"} smooth={true}>

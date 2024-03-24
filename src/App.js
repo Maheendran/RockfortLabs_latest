@@ -8,18 +8,19 @@ import Registration from './Pages/Register/Registration';
 import UnAuthRoute from './Components/PrivateRoute/UnAuthRoute';
 import AuthRoute from './Components/PrivateRoute/AuthRoute';
 import Projects from './Pages/Projects/Projects';
+import Tanun from './Pages/Tanun/Tanun';
 
 function App() {
   return (
     <>
 <Routes>
-<Route path="/" element={<AuthRoute Component={Home}/>}/>
-<Route path="/register" element={<UnAuthRoute Component={Registration}/>}/>
-<Route path="/projects" element={<AuthRoute Component={Projects}/>}/>
+<Route path="/" element={<Home/>}/>
+<Route path="/register" element={<Registration/>}/>
+<Route path="/projects" element={<Projects/>}/>
 
-<Route path="/audience" element={< AuthRoute  Component={Audience}/>}/>
-<Route path="/team" element={<AuthRoute  Component={Teams}/>}/>
-
+<Route path="/audience" element={<Audience/>}/>
+<Route path="/team" element={<Teams/>}/>
+<Route path="/tanun" element={<Tanun/>}/>
 </Routes>
     </>
   );
