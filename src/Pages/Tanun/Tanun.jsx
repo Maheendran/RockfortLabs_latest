@@ -128,7 +128,7 @@ The company's current focus lies in the development of licensable point-of-use e
 <img className='w-100 ' src="../assests/Sectors.gif" alt="" />
 
 </div>
-{/* <div>xcd</div> */}
+
     
     </div>
        {/* fifth section */}

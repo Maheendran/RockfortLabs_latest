@@ -9,7 +9,7 @@ import UnAuthRoute from './Components/PrivateRoute/UnAuthRoute';
 import AuthRoute from './Components/PrivateRoute/AuthRoute';
 import Projects from './Pages/Projects/Projects';
 import Tanun from './Pages/Tanun/Tanun';
-
+import Founder from './Pages/Founder/Founder';
 function App() {
   return (
     <>
@@ -21,6 +21,7 @@ function App() {
 <Route path="/audience" element={<Audience/>}/>
 <Route path="/team" element={<Teams/>}/>
 <Route path="/tanun" element={<Tanun/>}/>
+<Route path='/founder' element={<Founder/>} />
 </Routes>
     </>
   );

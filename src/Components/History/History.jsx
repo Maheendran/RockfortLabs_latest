@@ -51,12 +51,6 @@ const History = () => {
 </div>
 
     </div>
-    
-    
-    
-    
-    
-    
     </>
   )
 }
