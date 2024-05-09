@@ -52,8 +52,8 @@ const Founder = () => {
                         <div>
                           <h4 className="mb-3">Growth Strategist</h4>
                           <p className="text-secondary mb-0">Over three decades, 
-                          I've led teams in building and scaling global businesses,
-                           with successful exits in bootstrapped startups.
+                          I've led teams in building and 
+                          scaling global businesses and delivering successful exits to bootstrapped startups.
                             Leveraging a broad global network, 
                             I specialize in connecting ideas and opportunities to drive growth and revenue for startups and established organizations alike. Known for strategic prowess and tough negotiation skills,
                            I bring innovation and excellence to every project.</p>

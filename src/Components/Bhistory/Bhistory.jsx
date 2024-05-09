@@ -49,7 +49,7 @@ const Bhistory = () => {
     <img  className='imageheight' src="../assests/hotify.jpg" alt="" />
   </div>
   <div className="coustm_box">
-    <img  className='imageheight' src="../assests/log1.jpg" alt="" />
+    <img  className='imageheight' src="../assests/log1.png" alt="" />
   </div>
   <div className="coustm_box">
     <img  className='imageheight' src="../assests/log2.jpg" alt="" />
@@ -78,6 +78,7 @@ const Bhistory = () => {
   <div className="coustm_box">
     <img  className='imageheight' src="../assests/log10.jpg" alt="" />
   </div>
+
 </div>
 
     </div>

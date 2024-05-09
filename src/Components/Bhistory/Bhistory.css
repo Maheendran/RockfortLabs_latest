@@ -61,7 +61,7 @@ h2{
     .image-container {
         display: flex;
         justify-content: space-between;
-        width: calc(100px * 25);
+        width: calc(140px * 30);
         animation: move 35s linear infinite;
       }
       @keyframes move {
@@ -69,7 +69,7 @@ h2{
           transform: translateX(0);
         }
         100% {
-          transform: translateX(calc(-90px * 20));
+          transform: translateX(calc(-140px * 30));
         }
       }
     
@@ -89,7 +89,7 @@ h2{
     .image-container {
         display: flex;
         justify-content: space-between;
-        width: calc(200px * 10);
+        width: calc(200px * 20);
         animation: move 35s linear infinite;
       }
       
@@ -98,7 +98,7 @@ h2{
           transform: translateX(0);
         }
         100% {
-          transform: translateX(calc(-90px * 10));
+          transform: translateX(calc(-140px * 20));
         }
       }
    
